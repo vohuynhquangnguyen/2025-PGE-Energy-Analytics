@@ -16,20 +16,22 @@ Evaluating performance using metrics such as MAE, MSE, and MAPE. The final model
 ## Repository Structure
 
 ```
-├── data
-│   ├── training.xlsx       # Historical data.
-│   └── testing.xlsx        # Data for forecasting (Load column left blank).
+.
+├── LICENSE
+├── README.md
+├── datasets
+│   ├── results.xlsx
+│   ├── testing.xlsx
+│   └── training.xlsx
+├── final_report.pdf
+├── main.py
 ├── notebooks
-│   ├── interactive_eda.ipynb   # Interactive notebook for exploratory data analysis.
-|   └── eda.ipynb
-│   └── xgboost.ipynb       # Notebook for model training, validation, and forecasting.
-├── src
-│   ├── main.py             # Main script.
-│   └── utils.py            # Utility functions for data processing and evaluation.
-├── report
-│   └── final_report.pdf    # Detailed project report.
-├── requirements.txt        # Python dependencies required to run the project.
-└── README.md               # This file.
+│   ├── eda.ipynb
+│   └── interactive_eda.ipynb
+├── requirements.txt
+└── utils
+    ├── visualization.py
+    └── xgboost.py
 ```
 
 ## Installation
