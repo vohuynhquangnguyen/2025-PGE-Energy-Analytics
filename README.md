@@ -60,10 +60,15 @@ pip install -r requirements.txt
 Open the Jupyter notebooks in the notebooks directory to explore the data, visualize key insights, and review the model development process:
 
 ```
-jupyter notebook
+jupyter ./notebooks/interactive_eda.ipynb
 ```
 
 ### Running the Scripts
+Use the following command to run:
+
+```
+python main.py
+```
 
 ### Methodology
 Our approach can be summarized as follows:
