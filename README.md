@@ -20,7 +20,8 @@ Evaluating performance using metrics such as MAE, MSE, and MAPE. The final model
 │   ├── training.xlsx       # Historical data.
 │   └── testing.xlsx        # Data for forecasting (Load column left blank).
 ├── notebooks
-│   ├── EDA.ipynb           # Interactive notebook for exploratory data analysis.
+│   ├── interactive_eda.ipynb   # Interactive notebook for exploratory data analysis.
+|   └── eda.ipynb
 │   └── xgboost.ipynb       # Notebook for model training, validation, and forecasting.
 ├── src
 │   ├── main.py             # Main script.
