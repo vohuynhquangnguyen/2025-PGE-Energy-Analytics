@@ -38,8 +38,8 @@ Evaluating performance using metrics such as MAE, MSE, and MAPE. The final model
 1. Clone the Repository:
 
 ```
-git clone https://github.com/vohuynhquangnguyen/pge.git
-cd pge
+git clone https://github.com/vohuynhquangnguyen/2025-PGE-Energy-Analytics.git
+cd 2025-PGE-Energy-Analytics
 ```
 
 2. Set Up a Virtual Environment (optional but recommended):
